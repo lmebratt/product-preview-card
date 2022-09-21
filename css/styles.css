@@ -110,4 +110,10 @@ button {
     .description {
         padding: 28px;
     }
+
+    .button {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
