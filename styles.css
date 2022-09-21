@@ -23,7 +23,6 @@ body {
     margin-top: 100px;
     border-radius: 4px;
     width: 504px;
-    height: 380px;
     overflow: hidden;
 }
 
@@ -84,3 +83,31 @@ button {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 375px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        margin-top: 100px;
+        border-radius: 4px;
+        width: 314px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    img {
+        height: 268px;
+        width: 368px;
+    }
+
+    .description {
+        padding: 28px;
+    }
+}
