@@ -84,7 +84,7 @@ button {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media (max-width: 375px) {
+@media (max-width: 828px) {
     .container {
         display: flex;
         justify-content: center;
