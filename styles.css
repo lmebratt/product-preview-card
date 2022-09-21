@@ -54,7 +54,7 @@ h5 {
 }
 
 .price p:nth-child(1) {
-    color: hsl(158, 36%, 37%);
+    color: #3c8067;
     align-items: center;
     justify-items: center;
     font-size: 24px;
@@ -66,7 +66,7 @@ h5 {
 
 button {
     font-family: 'Montserrat', sans-serif;
-    background:hsl(158, 36%, 37%);
+    background:#3c8067;
     color: whitesmoke;
     display: flex;
     align-items: center;
