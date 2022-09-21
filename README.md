@@ -25,15 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-- Desing preview on desktop
+- Desing preview on desktop:
 
 ![Desing preview on desktop](./desings/desing-desktop.png)
 
-- Desing preview activate on desktop
+- Desing preview activate on desktop:
 
 ![Desing preview activate on desktop](./desings/desing-activate-desktop.png)
 
-- Desing preview on mobile
+- Desing preview on mobile:
 
 ![Desing preview on mobile](./desings/mobile-desktop.png)
 
@@ -91,5 +91,5 @@ This is just the beginning, I will continue to strengthen my knowledge to become
 ## Author
 
 - Website - [Luis M. Ebratt](https://lmebratt.github.io/)
-- Frontend Mentor - [@lmebratt](https://www.frontendmentor.io/profile/lmebratt)
 - Twitter - [@RazorLm](https://twitter.com/RazorLm)
+- Frontend Mentor - [@lmebratt](https://www.frontendmentor.io/profile/lmebratt)
