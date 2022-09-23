@@ -116,7 +116,6 @@ button:active {
     figcaption {
         background: whitesmoke;
         height: 340px;
-        padding: 44px;
         display: flex;
         flex-direction: column;
         justify-content: center;
