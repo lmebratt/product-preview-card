@@ -120,6 +120,5 @@ button:active {
         flex-direction: column;
         justify-content: center;
         box-sizing: border-box;
-        padding: 62px;
     }
 }
