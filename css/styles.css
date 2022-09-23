@@ -105,20 +105,25 @@ button:active {
     .main-article {
         display: flex;
         flex-direction: column;
-        height: 740px;
+        height: 660px;
         width: 460px;
     }
 
-    img {
-        height: 330px;
+    figure {
+        height: 328px;
     }
 
     figcaption {
         background: whitesmoke;
-        height: none;
+        height: 340px;
+        padding: 44px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         box-sizing: border-box;
+    }
+
+    .main-article__price {
+        grid-template-columns: 1fr 2.3fr;
     }
 }
