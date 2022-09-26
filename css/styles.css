@@ -15,14 +15,6 @@ body {
     font-size: 1.4rem;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
 .main-article {
     display: flex;
     flex-direction: row;
@@ -30,11 +22,12 @@ main {
     align-items: center;
     height: 404px;
     width: 576px;
-    margin: 44px;
+    margin: 44px auto;
     margin-bottom: 0;
     border-radius: 8px;
     overflow: hidden;
-}
+} 
+
 figure {
     margin: 0;
 }
