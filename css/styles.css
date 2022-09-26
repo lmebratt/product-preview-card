@@ -3,12 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
 
 * {
-    font-size: 14px;
     box-sizing: border-box; 
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body {
     background: hsl(30, 38%, 92%);
+    font-size: 1.4rem;
 }
 
 main {
@@ -49,7 +53,7 @@ figcaption {
 }
 
 .main-article__description h5 {
-    font-size: 10px;
+    font-size: 1rem;
     padding-bottom: 24px;
 }
 
@@ -63,7 +67,7 @@ figcaption {
 
 .main-article__price p:nth-child(1) {
     color: #3c8067;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 .main-article__price p:nth-child(2) {
@@ -95,7 +99,7 @@ button:active {
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 1.1rem; 
     text-align: center;
     margin-top: 5px;
 }
