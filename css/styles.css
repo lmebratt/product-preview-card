@@ -1,75 +1,61 @@
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
-
 html {
     font-size: 62.5%;
 }
-
 body {
     background: hsl(30, 38%, 92%);
     font-size: 1.4rem;
+    margin: 0;
 }
-
 .main-article {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 404px;
-    width: 576px;
-    margin: 44px auto;
-    margin-bottom: 0;
+    width: 370px;
+    margin: 44px auto 0;
     border-radius: 8px;
     overflow: hidden;
 } 
-
-figure {
+picture {
     margin: 0;
+    height: 256px;
 }
-
 img {
-    height: 412px;
+    height: 260px;
 }
-
-figcaption {
+.textContainer {
     background: whitesmoke;
-    height: 412px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 340px;
     padding: 40px;
 }
-
 .main-article__description h5 {
     font-size: 1rem;
     padding-bottom: 24px;
 }
-
 .main-article__price {
     font-family: 'Fraunces', serif;
     display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    justify-items: start;
     align-items: baseline;
+    grid-template-columns: 1fr 2.3fr;
+    height: 64px;
 }
-
 .main-article__price p:nth-child(1) {
     color: #3c8067;
     font-size: 2.4rem;
 }
-
 .main-article__price p:nth-child(2) {
     text-decoration: line-through;
+    padding-left: 12px;
 }
-
 .main-article__purchase {
     display: flex;
-    align-items: center;
-    flex-direction: row;
     justify-content: center;
 }
-
 button {
     font-family: 'Montserrat', sans-serif;
     background:#3c8067;
@@ -78,48 +64,42 @@ button {
     width: 172px;
     border-radius: 5px;
 } 
-
 button:hover {
     background-color: #086060;
 }
-
 button:active {
     background-color: rgb(11, 58, 58);
 }
-
 .attribution { 
     font-size: 1.1rem; 
     text-align: center;
     margin-top: 5px;
 }
-
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
 
-@media (max-width: 828px) {
-
+@media (min-width: 768px) {
     .main-article {
         display: flex;
-        flex-direction: column;
-        height: 660px;
-        width: 460px;
+        flex-direction: row;
+        height: 404px;
+        width: 560px;
     }
-
-    figure {
-        height: 328px;
+    picture {
+        height: 412px;
     }
-
-    figcaption {
-        background: whitesmoke;
-        height: 340px;
+    .textContainer {
+        height: 412px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        box-sizing: border-box;
+        padding: 40px;
     }
-
+    img {
+        height: 412px;
+    }
     .main-article__price {
-        grid-template-columns: 1fr 2.3fr;
+        grid-template-columns: 1fr 1.3fr;
     }
 }
