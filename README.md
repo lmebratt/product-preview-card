@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontendmentor.io](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub/product-preview-card-component-solution-WRWbC144bX)
-- Live Site URL: [Product-preview-card-solutionlm.netlify.app](https://product-preview-card-solutionlm.netlify.app/)
+- Live Site URL: [Product-preview-card-solutionlm.netlify.app](https://lmebratt.github.io/product-preview-card/)
 
 ## My process
 
